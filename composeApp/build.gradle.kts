@@ -41,6 +41,10 @@ kotlin {
             // lifecycle
             implementation(libs.lifecycle.runtime)
             implementation(libs.lifecycle.viewmodel)
+            implementation(libs.lifecycle.viewmodel.navigation3)
+
+            // navigation3
+            implementation(libs.navigation3)
 
             // serialization
             implementation(libs.serialization)

@@ -3,6 +3,7 @@
 compose-material3 = "1.10.0-alpha05"
 compose-activity = "1.12.4"
 lifecycle = "2.10.0-beta01"
+navigation3 = "1.0.0-alpha06"
 serialization = "1.10.0"
 
 kotlin = "2.3.10"
@@ -25,6 +26,8 @@ compose-preview = { module = "org.jetbrains.compose.ui:ui-tooling-preview", vers
 compose-activity = { module = "androidx.activity:activity-compose", version.ref = "compose-activity" }
 lifecycle-runtime = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
 lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-viewmodel-navigation3 = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-navigation3", version.ref = "lifecycle" }
+navigation3 = { module = "org.jetbrains.androidx.navigation3:navigation3-ui", version.ref = "navigation3" }
 serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
 
 [plugins]
