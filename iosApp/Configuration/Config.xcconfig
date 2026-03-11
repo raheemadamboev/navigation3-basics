@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=Navigation3Basics
+PRODUCT_BUNDLE_IDENTIFIER=xyz.teamgravity.navigation3basics.Navigation3Basics$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
